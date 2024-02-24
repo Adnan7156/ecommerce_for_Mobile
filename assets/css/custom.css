@@ -13,6 +13,18 @@
     transition: 0.5s;
     z-index: 10000;
 }
+.carousel-item img{
+  height: 500px;
+}
+.mainsection{
+  background-color: #6c757d;
+}
+.container h5 {
+  color: white;
+  font-size: 40px;
+  margin-left: 32px;
+  margin-top: 20px;
+}
 
 
 .nav-link-custom:active,
@@ -30,7 +42,6 @@
 .nav-link-custom .mx-2 {
     margin: 2.5rem !important;
 }
-
 .my-container {
     transition: 0.4s;
 }
@@ -61,6 +72,7 @@
 
 .card {
     margin-bottom: 20px;
+    border-radius: 2px;
   }
   .card img{
     height: 180px;
@@ -223,12 +235,7 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
-  .container {
-    width: 80%; /* Adjust width as needed */
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff; /* Optional background color */
-  }
+
   
   .details-container {
     display: flex;
@@ -284,4 +291,3 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
-    
