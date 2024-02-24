@@ -62,14 +62,15 @@
 .card {
     margin-bottom: 20px;
   }
-  .card  ol, ul, dl {
-    margin-top: -9px;
-    margin-bottom: 1rem;
-}
-  .card-title {
-    font-size: 18px;
+  .card img{
+    height: 180px;
+    width: 190px;
+    margin: 40px;
   }
-  
+  .card-body .card-title {
+    font-size: 14px;
+  }
+
   .card-subtitle {
     font-size: 14px;
     color: #6c757d;
@@ -81,6 +82,7 @@
   
   .card-link {
     color: #007bff;
+    background:rgb(253, 253, 253);
   }
 
 
@@ -154,4 +156,132 @@
   .email:hover {
     background-color: #1b7ae0;
   }
+
+  /* details page*/
+
   
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 80%;
+    height: calc(100vh - 100px);
+    position: relative;
+    margin-top: 50px;
+    border: 2px solid rgb(234, 223, 223);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
+   margin-bottom: 80px;
+  }
+  
+  .details-container h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+      }
+  
+  .details-container img {
+    max-width: 300px; 
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .text ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Optional background color */
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .details-container h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .details-container img {
+    max-width: 300px; /* Adjust image size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .text ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+    
