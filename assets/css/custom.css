@@ -1,0 +1,157 @@
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+
+
+.side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #13151A;
+    color: #fff;
+    opacity: 0.9;
+    transition: 0.5s;
+    z-index: 10000;
+}
+
+
+.nav-link-custom:active,
+.nav-link-custom:focus,
+.nav-link-custom:hover  {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: #ffffff26;
+    color: #fff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link-custom .mx-2 {
+    margin: 2.5rem !important;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: #4E52D0;
+    color: #fff;
+    margin-left: -62px;
+    margin-right: 10px;
+}
+
+.my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+}
+
+
+/* Card section */
+
+.card {
+    margin-bottom: 20px;
+  }
+  .card  ol, ul, dl {
+    margin-top: -9px;
+    margin-bottom: 1rem;
+}
+  .card-title {
+    font-size: 18px;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  .card-link {
+    color: #007bff;
+  }
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2.5rem 0;
+    background-color: #1e232c;
+  }
+  
+  .footer-col {
+    flex-basis: calc(33.333% - 2rem);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-col h6 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-col ul li a {
+    color: #dce6ed;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #007bff;
+  }
+  
+  .contact-us {
+    flex-basis: calc(33.333% - 2rem);
+    margin-right: 2rem;
+    text-align: center;
+  }
+  
+  .contact-us h6 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #eff6fb;
+  }
+  .contact-us p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #dce6ed;
+  }
+  
+  .contact-us p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .email {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .email:hover {
+    background-color: #1b7ae0;
+  }
+  
