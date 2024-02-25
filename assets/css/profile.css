@@ -13,7 +13,7 @@ body {
 
 /* NavbarTop */
 .navbar-top {
-    background-color: #fff;
+    background-color:gray;
     color: #333;
     box-shadow: 0px 4px 8px 0px grey;
     height: 70px;
@@ -63,7 +63,6 @@ body {
     top: 70px;
     width: 250px;
 }
-
 .profile {
     margin-bottom: 20px;
     margin-top: -12px;
@@ -74,7 +73,11 @@ body {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 1px grey;
 }
-
+.password {
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 45px;
+}
 .name {
     font-size: 20px;
     font-weight: bold;
