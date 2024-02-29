@@ -1,17 +1,21 @@
-@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
-
-.faq-container{
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
+body{
+    background-color:silver;
 }
 
-.header {
-  margin-bottom: 20px;
+
+
+.maincontainer  {
+margin-left: 20px;
+margin-top: 5px ;
+
 }
+
 #searchbox{
   width: 700px;
 }
-
+#footermargin{
+  margin-left: 130px;
+}
 
 .container h5 {
     color: white;
@@ -92,6 +96,8 @@
     background: rgb(253, 253, 253);
 }
 
+/* FOOTER */
+
 
 .footer {
     background-color: #f8f9fa;
@@ -99,9 +105,6 @@
     background-color: #1e232c;
     position:sticky;
     
-  }
-  #footermargin{
-    margin-left: 130px;
   }
   
   .footer-col {

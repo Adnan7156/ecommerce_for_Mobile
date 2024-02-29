@@ -1,7 +1,9 @@
 @import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
-
 body{
-  background-color: rgb(232, 167, 45);
+  background-color: silver;
+}
+#searchbox{
+  width: 700px;
 }
 .side-navbar {
     width: 250px;
@@ -109,6 +111,9 @@ body{
     position:sticky;
     
   }
+  #footermargin{
+    margin-left: 130px;
+  }
   
   .footer-col {
     flex-basis: calc(33.333% - 2rem);
@@ -125,6 +130,7 @@ body{
   
   .footer-col ul li {
     margin-bottom: 0.25rem;
+    list-style: none;
   }
   
   .footer-col ul li a {
@@ -143,34 +149,25 @@ body{
     text-align: center;
   }
   
-  .contact-us h6 {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #eff6fb;
-  }
-  .contact-us p {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #dce6ed;
-  }
-  
-  .contact-us p {
-    margin-bottom: 0.5rem;
-  }
-  
-  .email {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .email:hover {
-    background-color: #1b7ae0;
-  }
+ 
+
+.contact-us button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #3e8e41;
+}
 
   /* details page*/
 

@@ -3,19 +3,17 @@
             background-color: rgb(172, 181, 181);
         }
 
-        .login {
-            width: 300px;
-            padding: 16px;
-            margin: 0 auto;
-            background-color: #fafafa;
-            border: 1px solid black;
-            border-radius: 4px;
-        }
+ .login {
+            width: 40% !important;
+     background: white;
+    padding: 30px;
+    margin-left: 400px;
+  }
 
-        .login h2 {
+ .login h2 {
             margin: 0 0 16px 0;
             text-align: center;
-        }
+ }
 
         .login label {
             display: block;
