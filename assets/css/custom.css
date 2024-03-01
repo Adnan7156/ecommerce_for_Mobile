@@ -113,7 +113,7 @@ body{
   }
   #footermargin{
     margin-left: 130px;
-  }
+  } 
   
   .footer-col {
     flex-basis: calc(33.333% - 2rem);
