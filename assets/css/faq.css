@@ -1,9 +1,5 @@
 @import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
 
-.faq-container{
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-}
 
 .header {
   margin-bottom: 20px;
@@ -61,36 +57,7 @@
     padding: 2px 20px;
 }
 
-/* Card section */
 
-.card {
-    margin-bottom: 20px;
-    border-radius: 2px;
-}
-
-.card img {
-    height: 180px;
-    width: 190px;
-    margin: 40px;
-}
-
-.card-body .card-title {
-    font-size: 14px;
-}
-
-.card-subtitle {
-    font-size: 14px;
-    color: #6c757d;
-}
-
-.card-text {
-    font-size: 14px;
-}
-
-.card-link {
-    color: #007bff;
-    background: rgb(253, 253, 253);
-}
 
 
 .footer {
