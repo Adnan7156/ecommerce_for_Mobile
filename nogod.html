@@ -18,12 +18,12 @@
 </head>
 
 <body>
-    <div  class="container py-3" style="text-align: center;">
-        <form action="#">
-            <input type="text" placeholder="/ Search for " name="search" size="50">
-            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-    </div>
+  <div  class="container py-3" id="searchbox" style="text-align: center;">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+</div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
         <div class="container-xl">
             <a class="btn border-0" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
@@ -86,15 +86,19 @@
                     </a>
                 </div>
                 <div>
-                  <button class="ms-lg-4"><i class="fa-solid fa-cart-shopping"></i></button>
+                  <a href="../ecommerce_for Mobile/frontend/shopping-cart.html" class="ms-lg-4">
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                  </a>
                 </div>
             </div>
         </div>
     </nav>
     <div class="container" style="max-width: 25%;height: auto;display: block;padding-top: 5px;">
     <img src="../ecommerce_for Mobile/assets/img/nogod.png" alt="Your Logo" class="logo">
-    <br>
+    <br><div>&nbsp;</div>
+    <div class="row justify-content-center " style="font-size: 30px;padding-left: 40px;">
     <a href="tel:+1234567890"  class="phone-number">01871497474</a>
+  </div>
 </div>
     
 <!--start footer-->
