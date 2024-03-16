@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
-    <link rel="stylesheet" href="../assets/bootstrap/css/main.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
     
 
@@ -24,7 +21,7 @@
 
 
 <body>
-  <div  class="container py-3" id="searchbox" style="text-align: center;">
+  <!-- <div  class="container py-3" id="searchbox" style="text-align: center;">
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-primary" type="submit">Search</button>
@@ -33,16 +30,16 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
         <div class="container-xl">
-            <!-- <a class="btn border-0" id="menu-btn"><i class="fa-solid fa-bars"></i></a> -->
-            <!-- Navbar toggle -->
+
+            Navbar toggle
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Collapse -->
+            Collapse
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <!-- Nav -->
+                Nav
                 <div class="navbar-nav mx-lg-auto">
                   <img src="../assets/img/logo1.png" alt="Logo" width="60" height="30">
                     <a class="nav-item nav-link active" href="../index.html" aria-current="page">Home</a>
@@ -84,7 +81,7 @@
                       </li>
                     </ul>
                 </div>
-                <!-- Right navigation -->
+                Right navigation
                 <div class="navbar-nav ms-lg-4">
                     <a class="nav-item nav-link" href="../login.html">Sign in</a>
                 </div>
@@ -101,7 +98,106 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <p> welcome To MY-PHONE!</p>
+            </div>
+            <div class="col-sm-6 offset-sm-3">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    My Account
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Track Order
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="frontend/checkout.html">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Checkout
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-heart"></i>
+                    Wishlist
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">
+                    <i class="fa-solid fa-lock"></i>
+                    Login
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">
+                    <i class="fa-solid fa-pen"></i>
+                    Register
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="middle-part">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="logo">
+                <a class="navbar-brand" href="#">
+                  <img src="../assets/img/logo1.png " alt="Logo Icon" class="img-fluid"width="50" height="50">
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-8 offset-sm-2">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Search for Products" aria-label="Search for Products" aria-describedby="basic-addon">
+                      <span class="input-group-text" id="basic-addon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                    </div>
+    
+                  </a>
+                </li>
+                
+    
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </header>
 
     <!-- main section  -->
     <section class="maintable pt-4">
@@ -159,7 +255,7 @@
                 <div class="row p-4">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-6"><td><button class="btn btn-primary" type="submit"> Proceed to Checkout</button></td></div>
+                            <div class="col-6"><td><a href="../frontend/checkout.html"><button class="btn btn-primary" type="submit"> Proceed to Checkout</button></a></td></div>
                             <div class="col-6"><td><button class="btn btn-primary" type="submit">Order</button></td></div>
                         </div>
 

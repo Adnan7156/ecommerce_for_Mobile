@@ -1,6 +1,6 @@
 @import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
 body{
-  background-color: silver;
+  background-color: light ;
 }
 #searchbox{
   width: 700px;
@@ -105,9 +105,8 @@ body{
 /* FOOTER */
 
 .footer {
-    background-color: #f8f9fa;
     padding: 2.5rem 0;
-    background-color: #1e232c;
+    background-color: #1e232c !important;
     position:sticky;
     
   }

@@ -1,13 +1,13 @@
- body {
-            font-family: Arial, sans-serif;
-            background-color: rgb(172, 181, 181);
-        }
 
- .login {
-            width: 40% !important;
-     background: white;
+
+ .login 
+ {
+    width: 55% !important;
+    background: white;
     padding: 30px;
-    margin-left: 400px;
+    margin-left: 90px;
+
+
   }
 
  .login h4 {
