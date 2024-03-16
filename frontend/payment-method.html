@@ -13,17 +13,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: silver;
+  background-color:lightblue;
 }
 
 main form {
   width: 300px;
   margin-bottom: 15px;
+
 }
 
 main label {
   display: block;
   margin-top: 10px;
+  
   
 }
 
@@ -70,86 +72,12 @@ main a:hover {
 </style>
 </head>
 <body>
-    <!-- <div  class="container py-3" style="text-align: center;">
-        <form action="#">
-            <input type="text" placeholder="/ Search for " name="search" size="50">
-            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
-        <div class="container-xl">
-           
-            Navbar toggle
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            Collapse
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                Nav
-                <div class="navbar-nav mx-lg-auto">
-                  <img src="../assets/img/logo1.png" alt="Logo" width="60" height="30">
-                    <a class="nav-item nav-link active" href="../index.html" aria-current="page">Home</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Feature Phone
-          
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Samsung</a></li>
-                          <li><a class="dropdown-item" href="#">Nokia</a></li>
-                          <li><a class="dropdown-item" href="#">Itel</a></li>
-                          <li><a class="dropdown-item" href="#"> Symphony</a></li>
-                          <li><a class="dropdown-item" href="#"></a></li>
-          
-                        </ul>
-                      </li>
-                      
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Smart-Phone
-          
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Samsung</a></li>
-                          <li><a class="dropdown-item" href="#">Xiaomi</a></li>
-                          <li><a class="dropdown-item" href="#">Asus</a></li>
-                          <li><a class="dropdown-item" href="#">Honor</a></li> 
-                          <li><a class="dropdown-item" href="#">Google</a></li>
-                          <li><a class="dropdown-item" href="#">Apple</a></li>
-                          <li><a class="dropdown-item" href="#">Motorola</a></li>
-                          <li><a class="dropdown-item" href="#">Nokia</a></li>
-                          <li><a class="dropdown-item" href="#">Realme</a></li>
-                          <li><a class="dropdown-item" href="#">One plus</a></li>
-                          <li><a class="dropdown-item" href="#"></a></li>
-          
-                        </ul>
-          
-                      </li>
-                    </ul>
-                </div>
-                Right navigation
-                <div class="navbar-nav ms-lg-4">
-                    <a class="nav-item nav-link" href="login.html">Sign in</a>
-                </div>
-                <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-                    <a href="signup.html" class="btn btn-sm btn-primary w-full w-lg-auto">
-                        Register
-                    </a>
-                </div>
-                <div>
-                  <button class="ms-lg-4"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-        </div>
-    </nav> -->
-  
     <header>
       <div class="top-header">
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <p> welcome To MY-PHONE!</p>
+              <p> Welcome To MY-PHONE</p>
             </div>
             <div class="col-sm-6 offset-sm-3">
               <ul class="nav">
@@ -202,23 +130,23 @@ main a:hover {
             <div class="col-sm-2">
               <div class="logo">
                 <a class="navbar-brand" href="#">
-                  <img src="../assets/img/logo1.png " alt="Logo Icon" class="img-fluid"width="50" height="50">
+                  <img src="../assets/img/logo1.png" alt="Logo Icon" class="img-fluid"style="width: 3.25rem; height: 3.25rem;">
                 </a>
               </div>
             </div>
             <div class="col-sm-8 offset-sm-2">
-              <ul class="nav">
+              <ul class="nav ms-5">
                 <li class="nav-item">
-                  <a class="nav-link" href="../about.html"> About Us</a>
+                  <a class="nav-link about-us" href="#"> About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
+                  <a class="nav-link about-us" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link about-us" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shop</a>
+                  <a class="nav-link about-us me-4" href="#">Shop</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
@@ -231,7 +159,14 @@ main a:hover {
     
                   </a>
                 </li>
-                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span class="price">Cart / <span class="price_code">&#2547;</span>0.00</span>
+                    </button>
+                  </a>
+                </li>
     
               </ul>
             </div>
@@ -240,6 +175,37 @@ main a:hover {
         </div>
     
       </div>
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Feture Phone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Smart-Phone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
     
     </header>
 <!-----------------------------------------------------------Main Section---------------------------------------------------------------------------------------->
@@ -266,36 +232,44 @@ main a:hover {
     <button onclick="showBkashForm()"> <a href="../bkash.html">Bkash</a></button>
   <button onclick="showBkashForm()"> <a href="../nogod.html"> Nogod </a></button>
   </div>
-</main><div class="py-lg-2">&nbsp;</div>
+</main><div>&nbsp;</div>
 
 
 
 <!-----------------------------------------------------------Footer Section---------------------------------------------------------------------------------------->
 <footer class="footer">
-  <div class="row">     
-    <div class="footer-col"style="padding: left 20px;">
-      <h6>About Shop</h6>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="footer-col">
+          <h6>About Shop</h6>
           <ul>
-          <li> <a href="../ecommerce_for Mobile/about.html"> About Us </a> </li>
-          <li> <a href="#"> Terms & Condition </a> </li>
-          <li> <a href="../ecommerce_for Mobile/privacypolicy.html">Privacy Policy</a> </li> 
-          <li> <a href="#">Refund & Returns</a> </li> 
+            <li><a href="../ecommerce_for Mobile/about.html">About Us</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="../ecommerce_for Mobile/privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="#">Refund & Returns</a></li>
           </ul>
-    </div>
-    <div class="footer-col">
-            <h6>Get help</h6>
-          <ul>
-          <li> <a href="FAQ.html"> FAQ </a> </li>
-          <li> <a href="#"> Returns</a> </li>
-          <li> <a href="../ecommerce_for Mobile/frontend/payment-method.html">Payment</a> </li> 
-          </ul>
-          </div>
-            <div class="contact-us">
-            <button onclick="location.href='../contact-us.html';">Contact Us</button>
-            <p> <Address>Uttara secctor-4,road-4 Dhata-1230 </Address></p>
-            
         </div>
       </div>
+      <div class="col-sm-4">
+        <div class="footer-col">
+          <h6>Get help</h6>
+          <ul>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="../ecommerce_for Mobile/frontend/payment-method.html">Payment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-col contact-us">
+          <h6>Contact Us</h6>
+          <button onclick="location.href='contact-us.html';">Contact Us</button>
+          <p><Address>Uttara secctor-4,road-4 Dhata-1230</Address></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
     <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
