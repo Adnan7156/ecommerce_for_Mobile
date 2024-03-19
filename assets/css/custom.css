@@ -1,108 +1,4 @@
-@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
-body{
-  background-color: light ;
-}
-#searchbox{
-  width: 700px;
-}
-.side-navbar {
-    width: 250px;
-    height: 100%;
-    position: fixed;
-    margin-left: -300px;
-    background-color: #13151A;
-    color: #fff;
-    opacity: 0.9;
-    transition: 0.5s;
-    z-index: 10000;
-}
-.carousel-item img{
-  height: 500px;
-}
-.mainsection{
-  background-color: #6c757d;
-}
-.container h5 {
-  color: white;
-  font-size: 40px;
-  margin-left: 32px;
-  margin-top: 20px;
-}
 
-
-.nav-link-custom:active,
-.nav-link-custom:focus,
-.nav-link-custom:hover  {
-    display: block;
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    background-color: #ffffff26;
-    color: #fff;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-}
-
-.nav-link-custom .mx-2 {
-    margin: 2.5rem !important;
-}
-.my-container {
-    transition: 0.4s;
-}
-
-.active-nav {
-    margin-left: 0;
-}
-
-/* for main section */
-.active-cont {
-    margin-left: 250px;
-}
-
-#menu-btn {
-    background-color: #4E52D0;
-    color: #fff;
-    margin-left: -62px;
-    margin-right: 10px;
-}
-
-.my-container input {
-    border-radius: 2rem;
-    padding: 2px 20px;
-}
-
-
-/* Card section */
-
-.card {
-    margin-bottom: 20px;
-    border-radius: 2px;
-  }
-  .card img{
-    height: 180px;
-    width: 190px;
-    margin: 40px;
-  }
-  .card-body .card-title {
-    font-size: 12px;
-  }
-
-  .card-subtitle {
-    font-size: 14px;
-    color: #6c757d;
-  }
-  
-  .card-text {
-    font-size: 14px;
-  }
-  
-  .card-link {
-    color: #007bff;
-    background:rgb(253, 253, 253);
-  }
-
-
-
-/* FOOTER */
 
 .footer {
     padding: 2.5rem 0;
@@ -230,65 +126,12 @@ body{
     font-weight: bold;
   }
   
-  h2 {
+  .specifications {
     font-size: 18px;
     margin-bottom: 10px;
   }
 
   
-  .details-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-  }
-  
-  .details-container h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  
-  .details-container img {
-    max-width: 300px; /* Adjust image size as needed */
-    margin-bottom: 20px;
-  }
-  
-  .text {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .text ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .description {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
+
 /*--------------------------------------payment option----------------------------------------------------------------*/
   

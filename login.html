@@ -238,7 +238,7 @@
           <button type="submit" class="btn btn-primary btn-block">Submit</button> <!-- Using btn-block to make button full-width -->
           <div class="text-center mt-2"> <!-- Centering and adding margin top -->
             <span class="psw">
-              <a href="../signup.html">Create New Account?</a>
+              <a href="signup.html" class="text-decoration-none">Create New Account?</a>
             </span>
           </div>
         </form>
@@ -249,31 +249,39 @@
 <div>&nbsp;</div>
      <!---footer-->
      <footer class="footer">
-      <div id="footermargin" class="row" >     
-        <div class="footer-col"style="padding: left 20px;">
-          <h6>About Shop</h6>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="footer-col">
+              <h6>About Shop</h6>
               <ul>
-              <li> <a href="../ecommerce_for Mobile/about.html"> About Us </a> </li>
-              <li> <a href="#"> Terms & Condition </a> </li>
-              <li> <a href="../ecommerce_for Mobile/privacypolicy.html">Privacy Policy</a> </li> 
-              <li> <a href="#">Refund & Returns</a> </li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="#">Refund & Returns</a></li>
               </ul>
-        </div>
-        <div class="footer-col">
-                <h6>Get help</h6>
-              <ul>
-              <li> <a href="FAQ.html"> FAQ </a> </li>
-              <li> <a href="#"> Returns</a> </li>
-              <li> <a href="../ecommerce_for Mobile/frontend/payment-method.html">Payment</a> </li> 
-              </ul>
-              </div>
-                <div class="contact-us">
-                <button onclick="location.href='contact-us.html';">Contact Us</button>
-                <p> <Address>Uttara secctor-4,road-4 Dhata-1230 </Address></p>
-                
             </div>
           </div>
-  </footer>
+          <div class="col-sm-4">
+            <div class="footer-col">
+              <h6>Get help</h6>
+              <ul>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="../ecommerce_for Mobile/frontend/payment-method.html">Payment</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="footer-col contact-us">
+              <h6>Contact Us</h6>
+              <button onclick="location.href='contact-us.html';">Contact Us</button>
+              <p><Address>Uttara secctor-4,road-4 Dhata-1230</Address></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
   <script src="assets/js/custom.js"></script>
