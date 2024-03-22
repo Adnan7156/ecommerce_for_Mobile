@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="assets/css/signup.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
@@ -151,10 +150,10 @@
             <div class="col-sm-8 offset-sm-2">
               <ul class="nav ms-5">
                 <li class="nav-item">
-                  <a class="nav-link about-us" href="#"> About Us</a>
+                  <a class="nav-link about-us" href="about.html"> About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link about-us" href="#">Home</a>
+                  <a class="nav-link about-us" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link about-us" href="#">Blog</a>
@@ -198,13 +197,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Feture Phone</a>
+                <a class="nav-link" href="frontend/product.html">Feture Phone</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Smart-Phone</a>
+                <a class="nav-link" href="frontend/product-2.html">Smart-Phone</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -224,14 +223,18 @@
 
 
     <div class="container">
-      <div class="row justify-content-center"> <!-- Center the content horizontally -->
-        <div class="col-sm-6 border"> <!-- Use Bootstrap column sizing for medium screens and above -->
+      <div class="row justify-content-center"> 
+        <div class="col-sm-6 border"> 
           <div class="signup">
             <h4>Sign up</h4>
-            <form>
+            <form method="post" action="#">
               <div class="form-group">
-                <label for="exampleInputName">Name</label>
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                <label for="exampleInputName">User Name</label>
+                <input type="text" class="form-control" id="exampleInputuserName" placeholder="user Name" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName">Full Name</label>
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Full Name">
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
@@ -239,12 +242,12 @@
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
               </div><div>&nbsp;</div>
               
-              <button type="submit" class="btn btn-primary btn-block">Submit</button> 
-              <div class="text-center mt-2"> <!-- Centering and adding margin top -->
-                <span class="psw">
+              <button type="submit" class="btn btn-primary btn-block">Sign-Up</button> 
+              <div class="text-center mt-2"> 
+                <span class="login">
                   <a href="login.html" class="text-decoration-none">Already have Account</a>
                 </span>
               </div>
@@ -284,7 +287,7 @@
                 <div class="footer-col contact-us">
                   <h6>Contact Us</h6>
                   <button onclick="location.href='contact-us.html';">Contact Us</button>
-                  <p><Address>Uttara secctor-4,road-4 Dhata-1230</Address></p>
+                  <p class="address">Uttara secctor-4,road-4 Dhata-1230</p>
                 </div>
               </div>
             </div>
