@@ -405,6 +405,14 @@ header .navbar .container .navbar-nav .nav-item:hover .nav-link{
   text-decoration: none;
 }
 
+/* error  404 */
+
+.e-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
 
 
   

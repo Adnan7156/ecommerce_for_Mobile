@@ -18,6 +18,7 @@
         .login label {
             display: block;
             margin: 8px 0;
+            color: blue;
         }
 
         .login input[type="email"], .login input[type="password"] {
